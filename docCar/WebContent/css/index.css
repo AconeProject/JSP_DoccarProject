@@ -1,0 +1,7 @@
+#indexBox{float:left; width:860px; min-height:300px; border:1px solid #eee; background-image:url(../img/Heaven.jpg); background-repeat: no-repeat; background-size: 980px 600px;padding-top:300px }
+#indexBox h1 {text-align: center; color:#fff; text-shadow: 1px 1px 1px #333;}
+#indexBox ul#contents  {overflow:hidden; text-align: center;}
+#indexBox #contents li{display:inline-block; text-align: center; border:1px solid #eee; padding: 10px 0;}
+
+#indexBox #contents li.login_on{width:80%}
+#indexBox #contents li.login_off{width:40%}

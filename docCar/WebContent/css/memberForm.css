@@ -1,0 +1,31 @@
+*{font-family: 'nanumgothic';}
+
+
+
+
+#Box {width:980px; margin:0 auto; height:600px;}
+#mainBox{padding:10px; border:1px solid #999; }
+#mainBox h2 { color: #666;  margin}
+#mainBox h2 span{font-weight:normal; font-size:12px;}
+
+/*공용 버튼*/
+.check_btn{font-size:12px; color:#666; text-align:center;}
+input[type=checkbox] {vertical-align:middle}
+.join_btn {width:120px; margin:5px auto; }
+input[type=submit]{border:1px solid #c11313; background:#d82b2b; color:#fff;}
+.check_ok{color:#c11313; font-size:12px;}
+/*공용버튼 끝*/
+
+
+#tableBox{padding : 20px;}
+
+
+#tableBox table { width:100%; border-spacing:0px; }
+#tableBox table th{ border-left:1px solid #ccc; border-bottom: 1px solid #ccc;padding:5px 10px;font-size:12px;color:#666}
+#tableBox table td{ border-left:1px solid #ccc; border-bottom: 1px solid #ccc;padding:5px 10px;font-size:12px;color:#666}
+#tableBox table .table_top{border-top:2px solid #c11313}
+#tableBox table #overlap{border-radius:5px; background:#c11313; color:#fff; font-weight:bold; padding:2px 3px 3px 3px; cursor: pointer;}
+
+
+
+

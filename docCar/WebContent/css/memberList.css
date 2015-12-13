@@ -1,0 +1,5 @@
+#list_box {width:970px; margin:0 auto; }
+
+#list_box table {width:100%}
+#list_box table td {padding: 10px; border-bottom:1px solid #ccc;border-left:1px solid #ccc;text-align:center;}
+#list_box table th {padding:10px; border-bottom:1px solid #ccc;border-left:1px solid #ccc;border-top:1px solid #ccc;background:#eee;} 
