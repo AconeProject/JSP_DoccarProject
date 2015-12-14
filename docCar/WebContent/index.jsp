@@ -11,7 +11,7 @@
 		<%}else{ %>
 		<a href="Member_List.bo"><li  class="login_on">회원리스트</li></a>
 		<%} %>
-		<div style="clear:both;"></div>
+		<div style="clear:both;">asdfasdf</div>
 	</ul>
 </div>
 
