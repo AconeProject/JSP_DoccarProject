@@ -1,12 +1,13 @@
-create table car_member (
-car_mb_no number(10),
-car_mb_id varchar2(20),
-car_mb_password varchar2(20),
-car_mb_name varchar2(20),
-car_mb_address varchar2(20),
-car_mb_registerDate Date,
-car_mb_email varchar2(20),
-car_mb_type varchar2(20),
+create table member (
+mb_no number(10),
+mb_id varchar2(20),
+mb_password varchar2(20),
+mb_name varchar2(20),
+mb_address varchar2(20),
+mb_registerDate Date,
+mb_email varchar2(20),
+mb_type varchar2(20),
+mb_level number(10),
 primary key(car_mb_no)
 );
 
