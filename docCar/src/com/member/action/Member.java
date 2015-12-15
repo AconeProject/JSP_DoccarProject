@@ -2,8 +2,38 @@ package com.member.action;
 
 public class Member {
 	private int memberNumber;
-	private String id,password,name,address,email,registerDate;
+	private String id;
+	private String password;
+	private String name;
+	private String address;
+	private String email;
+	private String registerDate;
+	private String memBerType;
+	private boolean login_check;
 	
+	public Member() {
+		login_check = false;
+	}
+
+	
+
+	
+	public String getMemBerType() {
+		return memBerType;
+	}
+
+	public void setMemBerType(String memBerType) {
+		this.memBerType = memBerType;
+	}
+
+	public boolean isLogin_check() {
+		return login_check;
+	}
+
+	public void setLogin_check(boolean login_check) {
+		this.login_check = login_check;
+	}
+
 	public String getRegisterDate() {
 		return registerDate;
 	}

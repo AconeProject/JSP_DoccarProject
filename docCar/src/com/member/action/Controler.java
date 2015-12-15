@@ -29,6 +29,21 @@ public class Controler extends HttpServlet {
 		   ActionForward forward=null;
 		   Action action=null;
     	
+		   
+		   if(command.equals("/car_join.me")){
+			   forward = new ActionForward();
+			   forward.setRedirect(true);
+			   forward.setPath("/Member/car_join.jsp");
+		   }else if(command.equals("/car_joinOk.me")){
+			   action = new CarJoinAction();
+			   try {
+				action.execute(request, response);
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			   
+		   }
     	
     	
     };
