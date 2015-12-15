@@ -17,7 +17,7 @@
 			<a href="#"><li class="menu4">커뮤니티</li></a>
 		</ul>
 		
-		<%-- <div class="main_banner01">
+		<%-- 김지태 <div class="main_banner01">
 			<a href="<%=request.getContextPath()%>/car_join.me"><img src="<%=request.getContextPath()%>/img/main_banner01.png" alt="무료제휴 가입신청"></a>
 		</div> --%>
 	</nav>
